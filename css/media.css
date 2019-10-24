@@ -1,0 +1,216 @@
+@media screen and (max-width: 1139px) {
+    .main-container, .logo, .contact .block-contacts, .footer-content {
+        width: 960px;
+    }
+    .advantages {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 959px) {
+    .main-container, .logo, .contact .block-contacts, .footer-content {
+        width: 700px;
+    }
+    .logo {
+        height: 160px;
+    }
+    .logo-img a img {
+        width: 250px;
+        height: 160px;
+    }
+    .logo-tel-number, .logo-watch-delivery {
+        font-size: 1.5rem
+    }
+    .logo-img, .logo-watch {
+        margin-right: 0;
+    }
+    .logo-watch-delivery img {
+        width: 200px;
+    } 
+     
+    .productItem {
+        min-width: 30%;
+        margin-left: 2.5%;
+    }
+    .productItem-menu {
+        max-width: 30%;
+    }
+    .advantages {
+        width: 33.33333%;
+        transition: none;
+    }
+    .advantages:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    .google-map-contacts {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 719px) {
+    .main-container {
+        padding: 0 .5rem 2rem .5rem;
+    }
+    .main-container, .logo, .contact .block-contacts, .footer-content {
+        width: 100%;
+    }
+    
+    .btn-mobile {
+        display: flex;
+    }
+    .logo {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo-img {
+        width: 100%;
+        text-align: center;
+    }
+    .logo-img a img {
+        width: 400px;
+        height: 250px;
+    }
+    .logo-tel, .logo-watch {
+        text-align: center;
+        width: 50%;
+    }
+    .logo-watch-delivery {
+        margin: 0 auto;
+    }
+    .logo-watch-delivery img {
+        width: 250px;
+    } 
+    .logo-tel-number {
+        font-size: 2rem
+    }
+    .contact .block-contacts {
+        display: none;
+    }
+    .productItem {
+        min-width: 45%;
+        margin-left: 3.33%;
+    }
+    .productItem-menu {
+        max-width: 45%;
+    }
+    .productItem-menu:hover {
+        padding: 0;
+        border-radius: 0;
+        border: 1px solid #000;
+    }
+    footer {
+        display: block;
+        height: auto;
+        padding: 1.25rem 0;
+    }
+    .footer-content {
+        width: 100%;
+    }
+    .footer-top {
+        height: auto;
+        display: block;
+        
+    }
+    .footer-center {
+        margin: 2rem 0;
+    }
+    .footer-left, .footer-right {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .footer-left .footer-menu {
+        justify-content: space-around;
+    }
+    .footer-right {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .footer-menu ul li {
+        font-size: 1.5rem
+    }
+    .main-menu {
+        display: none;
+    }
+    .google-map-contacts {
+        width: 100%;
+        height: 300px;
+    }
+    fieldset {
+        width: 90%;
+        margin: 0 auto 2rem;
+    }
+    input, textarea {
+        width: 100%;
+    }
+    .block-comment {
+        width: 90%;
+        margin: 1rem auto; 
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .logo-watch-delivery img {
+        width: 200px;
+    } 
+    .logo-tel-number {
+        font-size: 1.5rem
+    }
+}
+
+
+@media screen and (max-width: 499px) {
+    .logo-img, .logo-watch, .logo-tel {
+        width: 100%;
+    }
+    .logo-img a img {
+        width: 300px;
+        height: 200px;
+    }
+    .logo-watch-delivery img {
+        width: 300px;
+    } 
+    .logo-tel {
+        margin-top: .625rem;
+        justify-content: center;
+    }
+    .logo-tel-number {
+        margin-right: 2rem;
+        font-size: 2rem;
+    }
+    .productItem {
+        min-width: 70%;
+        margin-left: 15%;
+    }
+    .block-advantages {
+        display: block;
+    }
+    .advantages {
+        width: calc(300px - 1rem);
+        margin: 0 auto;
+    }
+    .delivery-inform {
+        display: block;
+    }
+    .delivery-inform .violet, .delivery-inform .orange {
+        width: 100%;
+    }
+    .delivery-inform  .violet > p, .delivery-inform  .orange > p {
+        border: none;
+    }
+    .stock img {
+        height: 200px;
+    }
+    .block-contact .block-contact-telephone {
+        width: 200px;
+        flex-wrap: wrap
+    }
+    .block-contact .block-contact-telephone li + li {
+        margin-left: 0;
+    }
+    fieldset {
+        width: 100%;
+    }
+    .block-comment {
+        width: 100%;
+    }
+}

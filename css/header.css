@@ -1,0 +1,122 @@
+header {
+    background-color: #fff;
+}
+.contact {
+    background-color: #ffcfd6;
+}
+.contact .block-contacts {
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+}
+.block-contacts > li {
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.block-contacts > li:first-of-type:hover > .menu {
+    display: block;
+}
+.block-contacts > li + li {
+    margin-left: 20px;
+}
+.block-contacts > li:hover {
+    background-color: #000;
+}
+.block-contacts > li:hover a {
+    color: #fff
+}
+.block-contacts > li > a {
+    display: block;
+    padding: 10px 0;
+}
+/*
+.logo {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    height: 200px;
+}
+.logo-img, .logo-tel, .logo-watch {
+    margin-right: 5rem;
+    width: 200px;
+}
+*/
+
+.logo {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    height: 200px;
+}
+.logo-img, .logo-watch {
+    margin-right: 2rem;
+}
+.logo-img a img{
+    width: 300px;
+    height: 200px;
+}
+.logo-watch, .logo-tel {
+    display: flex;
+    align-items: center
+}
+.logo-tel img {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+.logo-watch-delivery img {
+    height: 100px;
+    width: 250px;
+    opacity: 1;
+} 
+.logo-tel-number {
+    font-size: 2rem;
+}
+
+
+
+
+.btn-mobile {
+    display: none;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #ffcfd6;
+}
+.btn-contacts {
+    right: 8px;
+    top: 8px;
+}
+.btn-menu {
+    left: 8px;
+    top: 8px;
+}
+.btn-mobile .btn-line {
+    width: 90%;
+    height: 6px;
+    background-color: #fff;
+}
+.block-mobile {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    transition: all .5s linear;
+}
+.block-mobile ul li {
+    border: 1px solid #ccc;
+}
+.block-mobile ul li a {
+    display: block;
+    padding: .3rem 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
